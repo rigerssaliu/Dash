@@ -1,0 +1,1543 @@
+{
+    "docType": "GetSegmentSpeedInRadius",
+    "copyright": "Copyright INRIX Inc.",
+    "versionNumber": "12.0",
+    "createdDate": "2018-05-07T11:50:22Z",
+    "statusId": 0,
+    "statusText": "OK",
+    "responseId": "fecc8a46-29bc-4676-b183-4ad9a12219ad",
+    "result": {
+        "segmentSpeeds": [
+            {
+                "segments": [
+                    {
+                        "code": "811590323",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.412,
+                        "speedBucket": 255
+                    },
+                    {
+                        "code": "811153392",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.315,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811492527",
+                        "type": "XDS",
+                        "speed": 6,
+                        "average": 8,
+                        "reference": 9,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.179,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811438155",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 13,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.448,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811487941",
+                        "type": "XDS",
+                        "speed": 28,
+                        "average": 15,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.048,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 11,
+                                "offset": "0,234"
+                            },
+                            {
+                                "speed": 13,
+                                "offset": "234,468"
+                            }
+                        ],
+                        "code": "811491652",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 17,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 1.477,
+                        "speedBucket": 2
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 16,
+                                "offset": "0,212"
+                            },
+                            {
+                                "speed": 19,
+                                "offset": "212,424"
+                            }
+                        ],
+                        "code": "811491667",
+                        "type": "XDS",
+                        "speed": 17,
+                        "average": 17,
+                        "reference": 20,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.942,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811440350",
+                        "type": "XDS",
+                        "speed": 21,
+                        "average": 16,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.452,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811240803",
+                        "type": "XDS",
+                        "speed": 20,
+                        "average": 16,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.019,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811240799",
+                        "type": "XDS",
+                        "speed": 24,
+                        "average": 14,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 82,
+                        "travelTimeMinutes": 0.016,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811596067",
+                        "type": "XDS",
+                        "speed": 23,
+                        "average": 14,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 82,
+                        "travelTimeMinutes": 0.026,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811222817",
+                        "type": "XDS",
+                        "speed": 19,
+                        "average": 14,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 82,
+                        "travelTimeMinutes": 0.037,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811440365",
+                        "type": "XDS",
+                        "speed": 20,
+                        "average": 14,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 82,
+                        "travelTimeMinutes": 0.466,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811413884",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 14,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 0.042,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811595986",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 14,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 0.045,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 10,
+                                "offset": "0,214"
+                            }
+                        ],
+                        "code": "811636556",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 16,
+                        "reference": 22,
+                        "score": 30,
+                        "c-Value": 98,
+                        "travelTimeMinutes": 1.507,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811222728",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 14,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 0.054,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811297498",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 13,
+                        "score": 20,
+                        "travelTimeMinutes": 0.916,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811413833",
+                        "type": "XDS",
+                        "speed": 19,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.028,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811153375",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.255,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811639714",
+                        "type": "XDS",
+                        "speed": 20,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.321,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 22,
+                                "offset": "0,178"
+                            },
+                            {
+                                "speed": 25,
+                                "offset": "178,356"
+                            }
+                        ],
+                        "code": "811311920",
+                        "type": "XDS",
+                        "speed": 24,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.561,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811438172",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.139,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811551123",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 12,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.427,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811459234",
+                        "type": "XDS",
+                        "speed": 22,
+                        "average": 12,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 96,
+                        "travelTimeMinutes": 0.256,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811543833",
+                        "type": "XDS",
+                        "speed": 21,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.36,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811604446",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.044,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811480343",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.025,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811480843",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.565,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293021939",
+                        "type": "XDS",
+                        "speed": 14,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.267,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811173318",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 11,
+                        "reference": 11,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.086,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811459253",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 11,
+                        "reference": 11,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.461,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811120956",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 11,
+                        "reference": 11,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.438,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811633008",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 7,
+                        "reference": 8,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.175,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293082174",
+                        "type": "XDS",
+                        "speed": 26,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.051,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811543814",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.081,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811480824",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.279,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811480299",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.146,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811604461",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.071,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "292758205",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.924,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811173399",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 12,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.158,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811133659",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.239,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811189720",
+                        "type": "XDS",
+                        "speed": 5,
+                        "average": 6,
+                        "reference": 8,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.321,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811632991",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 10,
+                        "score": 20,
+                        "travelTimeMinutes": 0.308,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811471282",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 10,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.168,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811378707",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 10,
+                        "score": 20,
+                        "travelTimeMinutes": 0.117,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293368086",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 8,
+                        "reference": 9,
+                        "score": 20,
+                        "travelTimeMinutes": 0.166,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811287300",
+                        "type": "XDS",
+                        "speed": 18,
+                        "average": 10,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 22,
+                        "travelTimeMinutes": 0.027,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 15,
+                                "offset": "0,232"
+                            },
+                            {
+                                "speed": 11,
+                                "offset": "232,464"
+                            },
+                            {
+                                "speed": 11,
+                                "offset": "464,697"
+                            }
+                        ],
+                        "code": "811545266",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 34,
+                        "travelTimeMinutes": 2.2,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811513256",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 11,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.568,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811439456",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 15,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.777,
+                        "speedBucket": 2
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 14,
+                                "offset": "0,218"
+                            },
+                            {
+                                "speed": 17,
+                                "offset": "218,435"
+                            },
+                            {
+                                "speed": 19,
+                                "offset": "435,653"
+                            }
+                        ],
+                        "code": "811404890",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 16,
+                        "reference": 20,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.507,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811580754",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 16,
+                        "reference": 16,
+                        "score": 20,
+                        "travelTimeMinutes": 0.04,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811342329",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 16,
+                        "reference": 16,
+                        "score": 20,
+                        "travelTimeMinutes": 0.043,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811193207",
+                        "type": "XDS",
+                        "speed": 5,
+                        "average": 5,
+                        "reference": 8,
+                        "score": 20,
+                        "travelTimeMinutes": 0.125,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811615328",
+                        "type": "XDS",
+                        "speed": 5,
+                        "average": 5,
+                        "reference": 8,
+                        "score": 20,
+                        "travelTimeMinutes": 0.107,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811218596",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.157,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811345319",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 14,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 97,
+                        "travelTimeMinutes": 0.086,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811342313",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 14,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 97,
+                        "travelTimeMinutes": 0.067,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293249296",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 14,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 97,
+                        "travelTimeMinutes": 0.382,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811227817",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 11,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.692,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293035808",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 11,
+                        "reference": 11,
+                        "score": 20,
+                        "travelTimeMinutes": 0.095,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811620789",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 11,
+                        "reference": 11,
+                        "score": 20,
+                        "travelTimeMinutes": 0.2,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811481579",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 10,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 1.014,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811481563",
+                        "type": "XDS",
+                        "speed": 17,
+                        "average": 19,
+                        "reference": 19,
+                        "score": 20,
+                        "travelTimeMinutes": 0.789,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811487957",
+                        "type": "XDS",
+                        "speed": 17,
+                        "average": 19,
+                        "reference": 19,
+                        "score": 20,
+                        "travelTimeMinutes": 0.079,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811377723",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 16,
+                        "reference": 19,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.14,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811451397",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 11,
+                        "score": 20,
+                        "travelTimeMinutes": 0.187,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811413878",
+                        "type": "XDS",
+                        "speed": 2,
+                        "average": 9,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.418,
+                        "speedBucket": 0
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 12,
+                                "offset": "0,260"
+                            },
+                            {
+                                "speed": 5,
+                                "offset": "260,519"
+                            }
+                        ],
+                        "code": "811456005",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 12,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 2.834,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811151725",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 9,
+                        "reference": 9,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.126,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811428102",
+                        "type": "XDS",
+                        "speed": 36,
+                        "average": 36,
+                        "reference": 36,
+                        "score": 10,
+                        "travelTimeMinutes": 0.016,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811596086",
+                        "type": "XDS",
+                        "speed": 15,
+                        "average": 14,
+                        "reference": 18,
+                        "score": 20,
+                        "travelTimeMinutes": 0.143,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811455989",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 11,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 1.714,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811480267",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 0.46,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811480315",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 10,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.625,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "293152610",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 10,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.823,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "292926469",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 8,
+                        "reference": 7,
+                        "score": 10,
+                        "travelTimeMinutes": 0.653,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "292927182",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 7,
+                        "reference": 9,
+                        "score": 20,
+                        "travelTimeMinutes": 0.131,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "292867383",
+                        "type": "XDS",
+                        "speed": 4,
+                        "average": 6,
+                        "reference": 7,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.275,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811513214",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 14,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.663,
+                        "speedBucket": 2
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 17,
+                                "offset": "0,255"
+                            },
+                            {
+                                "speed": 11,
+                                "offset": "255,510"
+                            }
+                        ],
+                        "code": "292720502",
+                        "type": "XDS",
+                        "speed": 14,
+                        "average": 11,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.39,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811479540",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 1.884,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811479522",
+                        "type": "XDS",
+                        "speed": 5,
+                        "average": 9,
+                        "reference": 16,
+                        "score": 30,
+                        "c-Value": 97,
+                        "travelTimeMinutes": 3.768,
+                        "speedBucket": 0
+                    },
+                    {
+                        "code": "811383619",
+                        "type": "XDS",
+                        "speed": 3,
+                        "average": 6,
+                        "reference": 8,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 2.108,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811383596",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 9,
+                        "reference": 11,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.586,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811174581",
+                        "type": "XDS",
+                        "speed": 20,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.214,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811125069",
+                        "type": "XDS",
+                        "speed": 20,
+                        "average": 12,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.802,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811134956",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.078,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811454960",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.047,
+                        "speedBucket": 1
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 9,
+                                "offset": "0,220"
+                            },
+                            {
+                                "speed": 15,
+                                "offset": "220,440"
+                            },
+                            {
+                                "speed": 13,
+                                "offset": "440,660"
+                            },
+                            {
+                                "speed": 9,
+                                "offset": "660,879"
+                            }
+                        ],
+                        "code": "811258740",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 2.931,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811542314",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.027,
+                        "speedBucket": 2
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 12,
+                                "offset": "0,220"
+                            },
+                            {
+                                "speed": 6,
+                                "offset": "440,660"
+                            },
+                            {
+                                "speed": 9,
+                                "offset": "660,879"
+                            }
+                        ],
+                        "code": "811258725",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 9,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 4.397,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811542294",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.095,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811454947",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 9,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.04,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811134905",
+                        "type": "XDS",
+                        "speed": 8,
+                        "average": 9,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.066,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811403099",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 14,
+                        "reference": 17,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.886,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811403109",
+                        "type": "XDS",
+                        "speed": 17,
+                        "average": 11,
+                        "reference": 17,
+                        "score": 30,
+                        "c-Value": 94,
+                        "travelTimeMinutes": 0.656,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811527207",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.296,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "292957815",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.096,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "289402170",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.084,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811527259",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.259,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811165223",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 11,
+                        "reference": 12,
+                        "score": 20,
+                        "travelTimeMinutes": 0.241,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811165107",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 9,
+                        "reference": 13,
+                        "score": 20,
+                        "travelTimeMinutes": 0.241,
+                        "speedBucket": 2
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 13,
+                                "offset": "0,256"
+                            },
+                            {
+                                "speed": 12,
+                                "offset": "256,512"
+                            },
+                            {
+                                "speed": 10,
+                                "offset": "512,769"
+                            }
+                        ],
+                        "code": "811389258",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 2.562,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "294803730",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.432,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811401915",
+                        "type": "XDS",
+                        "speed": 2,
+                        "average": 7,
+                        "reference": 8,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.44,
+                        "speedBucket": 0
+                    },
+                    {
+                        "code": "811389309",
+                        "type": "XDS",
+                        "speed": 6,
+                        "average": 6,
+                        "reference": 8,
+                        "score": 20,
+                        "travelTimeMinutes": 0.183,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811563875",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 13,
+                        "reference": 14,
+                        "score": 20,
+                        "travelTimeMinutes": 0.873,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811563856",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 11,
+                        "reference": 15,
+                        "score": 20,
+                        "travelTimeMinutes": 1.018,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "811578529",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.684,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811389294",
+                        "type": "XDS",
+                        "speed": 11,
+                        "average": 8,
+                        "reference": 10,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.773,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811578546",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.14,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811176862",
+                        "type": "XDS",
+                        "speed": 12,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.877,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811389209",
+                        "type": "XDS",
+                        "speed": 7,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.265,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "811401831",
+                        "type": "XDS",
+                        "speed": 16,
+                        "average": 9,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 0.07,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "811528893",
+                        "type": "XDS",
+                        "speed": 27,
+                        "average": 14,
+                        "reference": 17,
+                        "score": 30,
+                        "c-Value": 93,
+                        "travelTimeMinutes": 0.083,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 27,
+                                "offset": "0,215"
+                            },
+                            {
+                                "speed": 17,
+                                "offset": "215,429"
+                            }
+                        ],
+                        "code": "811458813",
+                        "type": "XDS",
+                        "speed": 21,
+                        "average": 14,
+                        "reference": 17,
+                        "score": 30,
+                        "c-Value": 93,
+                        "travelTimeMinutes": 0.758,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "293163188",
+                        "type": "XDS",
+                        "speed": 27,
+                        "average": 27,
+                        "reference": 27,
+                        "score": 10,
+                        "travelTimeMinutes": 0.325,
+                        "speedBucket": 3
+                    },
+                    {
+                        "code": "292822412",
+                        "type": "XDS",
+                        "speed": 14,
+                        "average": 14,
+                        "reference": 17,
+                        "score": 20,
+                        "travelTimeMinutes": 1.555,
+                        "speedBucket": 2
+                    },
+                    {
+                        "code": "289544883",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 12,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 0.404,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "289729427",
+                        "type": "XDS",
+                        "speed": 9,
+                        "average": 12,
+                        "reference": 15,
+                        "score": 30,
+                        "c-Value": 0,
+                        "travelTimeMinutes": 2.151,
+                        "speedBucket": 1
+                    },
+                    {
+                        "code": "289787445",
+                        "type": "XDS",
+                        "speed": 27,
+                        "average": 27,
+                        "reference": 27,
+                        "score": 10,
+                        "travelTimeMinutes": 0.095,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 7,
+                                "offset": "0,199"
+                            }
+                        ],
+                        "code": "288943633",
+                        "type": "XDS",
+                        "speed": 6,
+                        "average": 11,
+                        "reference": 14,
+                        "score": 30,
+                        "c-Value": 80,
+                        "travelTimeMinutes": 2.391,
+                        "speedBucket": 1
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 12,
+                                "offset": "0,206"
+                            },
+                            {
+                                "speed": 12,
+                                "offset": "206,412"
+                            },
+                            {
+                                "speed": 14,
+                                "offset": "412,618"
+                            }
+                        ],
+                        "code": "293021947",
+                        "type": "XDS",
+                        "speed": 13,
+                        "average": 10,
+                        "reference": 12,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 1.767,
+                        "speedBucket": 3
+                    },
+                    {
+                        "subSegments": [
+                            {
+                                "speed": 8,
+                                "offset": "0,206"
+                            },
+                            {
+                                "speed": 19,
+                                "offset": "206,412"
+                            },
+                            {
+                                "speed": 7,
+                                "offset": "412,618"
+                            }
+                        ],
+                        "code": "289049026",
+                        "type": "XDS",
+                        "speed": 10,
+                        "average": 12,
+                        "reference": 13,
+                        "score": 30,
+                        "c-Value": 100,
+                        "travelTimeMinutes": 2.319,
+                        "speedBucket": 2
+                    }
+                ],
+                "timestamp": "2018-05-07T11:50:22Z"
+            }
+        ],
+        "coverage": 255
+    }
+}
