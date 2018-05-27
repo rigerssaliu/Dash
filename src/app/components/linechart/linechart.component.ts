@@ -52,7 +52,7 @@ export class LinechartComponent {
         options: {
           title: {
             display: true,
-            text: 'Test with Data from local JSON file'
+            text: 'Test with Data from local JSON file HISTORICAL'
           },
           legend: {
             display: true

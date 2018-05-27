@@ -1,8 +1,17 @@
 <div>
   <canvas id="canvas2">{{barChart}}</canvas>
 </div>
-<div>
-  <input  type="input-group" [(ngModel)]="input" input="input" (keyup.enter)="onKeyUp()"/>
-  <button type="button" class="btn btn-sm btn-primary">Speed Filter</button>
-</div>
+  <form (submit)="onSubmit()">
+    <label style="color: rgb(255, 255, 255);">Filter segments above the speed submited</label>
+    <div class="form-group row">
+      <input type="number" class="" [(ngModel)]="input" name="input">
 
+      <input type="range" class="custom-range" min="0" max="30" [(ngModel)]="input" name="input">
+
+      <div class="col-lg-4">
+        <button type="submit" class="btn btn-success btn-sm" value="Submit">Speed Filter</button>
+      </div>
+    </div>
+  </form>
+
+<br>

@@ -1,33 +1,45 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
-<app-navbar></app-navbar>
-<br>
-<br>
-<br>
 <div>
-<button class="navbar-toggler" type="button" (click)="toggleMenu()" >
+  <app-navbar></app-navbar>
+</div>
+<br>
+<br>
+<br>
+
+<div class="fixed-top">
+  <button class="navbar-toggler pull-right btn-secondary" type="button" (click)="toggleMenu()">
     &#9776;
-</button>
+  </button>
 </div>
 
 <app-sidebar [@slideInOut]="menuState"></app-sidebar>
 
 <div class="container-fluid">
-    <div class="row col-lg-12">
-        <div class="col-lg-4">
-        </div>
-        <div class="container" style="background: rgba(0, 0, 0, 0.8)">
-            <router-outlet></router-outlet>
-          </div>
-      </div>
-      
+  <div class="row col-lg-12">
+    <div class="col-lg-4">
+    </div>
+    <div class="container" style="background: rgba(0, 0, 0, 0.8)">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
 </div>
 
 
 <div style="background: rgba(0, 0, 0, 0.8);">
+
   <div class="row col-lg-12">
     <div class="col-lg-6">
-      <app-linechart></app-linechart>
+      <app-linear-gauge></app-linear-gauge>
+    </div>
+    <div class="col-lg-6">
+      <app-map></app-map>
+    </div>
+  </div>
+
+  <div class="row col-lg-12">
+    <div class="col-lg-6">
+      <app-piechart></app-piechart>
     </div>
     <div class="col-lg-6">
       <app-barchart></app-barchart>
@@ -35,11 +47,15 @@
   </div>
   <div class="row col-lg-12">
     <div class="col-lg-6" style="color: white">
-      <app-piechart></app-piechart>
+      <app-linechart></app-linechart>
+
     </div>
     <div class="col-lg-6" style="color: white">
-      Other Chart COMONET test
       <app-timelinechart></app-timelinechart>
     </div>
   </div>
+</div>
+
+<div>
+  <app-footer></app-footer>
 </div>

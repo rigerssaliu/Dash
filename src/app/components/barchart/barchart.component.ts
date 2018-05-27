@@ -2,7 +2,6 @@ import { DashboardService } from './../../services/dashboard.service';
 import { Chart } from 'chart.js';
 import { Component, OnInit, Testability } from '@angular/core';
 import { map } from 'rxjs/operators/map';
-import {Input} from '@angular/core';
 
 @Component({
   selector: 'app-barchart',
@@ -12,7 +11,7 @@ import {Input} from '@angular/core';
 export class BarchartComponent implements OnInit {
 
   //Variables
-  input:number= 11 ; 
+  input:number; 
   
   barChart: any[];
 
@@ -21,16 +20,36 @@ export class BarchartComponent implements OnInit {
   segmentsCodeFiltered: any[] = [];
   segmentsSpeedFiltered: any[] = [];
 
-  segmentsCodeFiltered2 : any[] = [];
-  segmentsSpeedFiltered2: any[] = [];
   
-  onKeyUp(){
-    console.log(this.input)
-  }
+  
+  
   //Krijoj nje instance te  servisit  +++ dependency injection brenda konstruktorit
   //Create an instance of DashboardService
   constructor(private appSettingsService: DashboardService) { }
   
+  onSubmit(){
+    this.segmentsSave=[];
+    this.segmentsCodeFiltered=[];
+    this.segmentsSpeedFiltered=[];
+    this.appSettingsService.getJSON().subscribe(data => {
+
+      data.result.segmentSpeeds.map(res => {
+        this.segmentsSave = res.segments;
+      });
+
+      var colors = [];
+
+      colors = this.segmentsSave.map(segment => {
+        this.segmentsSpeedFiltered.push(segment.speed);
+        this.segmentsCodeFiltered.push(segment.code);
+        console.log(this.input);
+        return segment.speed > this.input ? "red" : "blue";
+      });
+
+      this.createChart(colors);
+    });
+
+  }
   ngOnInit() {
     this.appSettingsService.getJSON()
     .subscribe(data => {
@@ -81,8 +100,13 @@ export class BarchartComponent implements OnInit {
       //var test = averageSpeed.filter(elem => elem == 11)
       // console.log(test)
       // console.log(test.length)
+      this.createChart(colors);
+    });
 
-      //krijimi i chart
+  }
+
+  createChart(colors) {
+    //krijimi i chart
       //Chart creation
       // Global Options Fonts
       Chart.defaults.global.defaultFontColor = 'white';
@@ -114,7 +138,7 @@ export class BarchartComponent implements OnInit {
         options: {
           title: {
             display: true,
-            text: 'Test with Data from local JSON file'
+            text: 'Chart shows segments Speed'
           },
 
           legend: {
@@ -138,7 +162,5 @@ export class BarchartComponent implements OnInit {
 
         }
       })
-    });
   }
-
 }

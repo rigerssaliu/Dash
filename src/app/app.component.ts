@@ -23,7 +23,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 })
 export class AppComponent {
   title = 'app';
-  
+  // Slide Menu controller
   menuState:string = 'out';
 
   toggleMenu() {

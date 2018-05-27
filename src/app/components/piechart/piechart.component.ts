@@ -54,37 +54,51 @@ export class PiechartComponent implements OnInit {
       chartData.push(this.segmentsSpeedBucketFiltered3.length)
       chartData.push(this.segmentsSpeedBucketFiltered4.length)
 
-      // console.log(this.segmentsSpeedBucketFiltered0)
-      // console.log(this.segmentsSpeedBucketFiltered1)
-      // console.log(this.segmentsSpeedBucketFiltered2)
-      // console.log(this.segmentsSpeedBucketFiltered3)
-      // console.log(this.segmentsSpeedBucketFiltered4)
+      this.createChart(chartData);
+    });
+  }
 
-      //krijimi i chart
+  createChart(chartData) {
+    //krijimi i chart
       //Chart creation
+      Chart.defaults.global.defaultFontColor = 'white';
+
       this.pieChart = new Chart('canvas3', {
         type: 'pie',
         data: {
           datasets: [{
             data: chartData,
-            backgroundColor: ['red','yellow','green','blue','black']
+            backgroundColor: ['red', 'yellow', 'green', 'blue', 'black']
           }
 
           ],
           labels: [
-            'Speed 0-31 %',
-            'Speed 32-62 %',
-            'Speed 63-92 %',
-            'Speed 93-100',
-            'Closed Road'
+            'Speed 0-31% ' + this.segmentsSpeedBucketFiltered0.length + ' Segments',
+            'Speed 32-62% ' + this.segmentsSpeedBucketFiltered1.length + ' Segments',
+            'Speed 63-92% ' + this.segmentsSpeedBucketFiltered2.length + ' Segments',
+            'Speed 93-100% ' + this.segmentsSpeedBucketFiltered3.length + ' Segments',
+            this.segmentsSpeedBucketFiltered4.length + ' Segments Closed'
           ],
 
         },
         options: {
+          title: {
+            display: true,
+            text: 'The Amount of congestion on the segment'
+          },
 
+
+          setChartClickHandler(ctx, chart) {
+            ctx.on('click', evt => {
+              var activePoints = chart.getElementsAtEvent(evt);
+              var label = chart.data.labels[activePoints[0]._index];
+              var value = chart.data.datasets[activePoints[0]._datasetIndex].data[activePoints[0]._index];
+              console.log(label, value);
+            });
+          },
         }
+
       })
-    });
   }
 }
 

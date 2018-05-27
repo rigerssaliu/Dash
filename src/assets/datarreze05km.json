@@ -18,7 +18,7 @@
                         "reference": 14,
                         "score": 30,
                         "c-Value": 100,
-                        "travelTimeMinutes": 0.412,
+                        "travelTimeMinutes": -1,
                         "speedBucket": 255
                     },
                     {

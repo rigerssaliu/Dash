@@ -1,0 +1,82 @@
+<br>
+<label style="display: block; color: rgb(255, 255, 255); text-align: center ;">Segments code from speed bucket congestion</label>
+
+<div class="container">
+<div class="row col-lg-12">
+  <div style="color: red" class="col-lg-2">
+    RED
+    <label style="color: white ">0-31%</label>
+  </div>
+  <div style="color: yellow" class="col-lg-2">
+    YELLOW
+    <label style="color: white ">31-62%</label>
+  </div>
+  <div style="color: green" class="col-lg-2">
+    GREEN
+    <label style="color: white ">31-62%</label>
+  </div>
+  <div style="color: blue" class="col-lg-2">
+    BLUE
+    <label style="color: white ">63-92%</label>
+  </div>
+  <div style="color: black" class="col-lg-2">
+    BLACK
+    <label style="color: white ">93-100%</label>
+  </div>
+</div>
+<div style="width: 700px; color: white">
+
+  <div class="div0" (click)=show0()>{{segmentsSpeedBucketFiltered0.length}}</div>
+  <div class="div1" (click)=show1()>{{segmentsSpeedBucketFiltered1.length}}</div>
+  <div class="div2" (click)=show2()>{{segmentsSpeedBucketFiltered2.length}}</div>
+  <div class="div3" (click)=show3()>{{segmentsSpeedBucketFiltered3.length}}</div>
+  <div class="div4" (click)=show4()>{{segmentsSpeedBucketFiltered4.length}}</div>
+
+</div>
+<br>
+<br>
+<br>
+<div style="color: white " class="row col-lg-12">
+
+  <div class="col-lg-2">
+
+    <ul>
+      <li *ngFor="let segment of showSegmentsCode0">
+        <a href="">{{segment}}</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2">
+    <ul>
+      <li *ngFor="let segment of showSegmentsCode1">
+        {{segment}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2">
+    <ul>
+      <li *ngFor="let segment of showSegmentsCode2">
+        {{segment}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-2">
+    <ul>
+      <li *ngFor="let segment of showSegmentsCode3">
+        {{segment}}
+      </li>
+    </ul>
+  </div>
+  <div class="col-lg-2">
+    <ul>
+      <li *ngFor="let segment of showSegmentsCode4">
+        {{segment}}
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<br>
