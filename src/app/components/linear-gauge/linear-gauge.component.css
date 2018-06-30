@@ -1,34 +1,46 @@
-.div0 {
+  .div0 {
     background: red;
-    height: 20px;
-    width: 2%;
+    height: 25px;
+    /* width: 2%; */
     float: left;
+    cursor: pointer;
   }
 
   .div1 {
     background: yellow;
-    height: 20px;
-    width: 17%;
+    height: 25px;
+    /* width: 17%; */
     float: left;
+    cursor: pointer;
   }
 
   .div2 {
     background: green;
-    height: 20px;
-    width: 40%;
+    height: 25px;
+    /* width: 40%; */
     float: left;
+    cursor: pointer;
   }
 
   .div3 {
     background: blue;
-    height: 20px;
-    width: 40%;
+    height: 25px;
+    /* width: 40%; */
     float: left;
+    cursor: pointer;
   }
 
   .div4 {
     background: black;
-    height: 20px;
-    width: 1%;
+    height: 25px;
+    /* width: 1%; */
     float: left;
+    cursor: pointer;
   }
+
+  #hover-content {
+    display:none;
+}
+  #parent:hover #hover-content {
+    display:block;
+}

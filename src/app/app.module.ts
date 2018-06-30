@@ -1,5 +1,5 @@
-import {RouterModule, Routes} from '@angular/router';
-import {FormsModule} from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Component } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 import { DashboardService } from './services/dashboard.service';
+import { CameraService } from './services/camera.service';
+
+
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
@@ -20,15 +23,19 @@ import { LinearGaugeComponent } from './components/linear-gauge/linear-gauge.com
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TesterComponent } from './components/tester/tester.component';
+import { LiveBarChartComponent } from './components/live-bar-chart/live-bar-chart.component';
 
 const appRoutes: Routes = [
-  { path:'', component: HomeComponent},
-  { path:'bar', component: LinechartComponent},
-  { path:'line', component: BarchartComponent},
-  { path: 'pie', component: PiechartComponent},
-  { path: 'timeLine', component: TimelinechartComponent}
+  { path: '', component: HomeComponent },
+  { path: 'bar', component: BarchartComponent },
+  { path: 'line', component: LinechartComponent },
+  { path: 'pie', component: PiechartComponent },
+  { path: 'timeLine', component: TimelinechartComponent },
+  { path: 'linearGauge', component: LinearGaugeComponent },
+  { path: 'map', component: MapComponent }
 
-];  
+
+];
 
 @NgModule({
   declarations: [
@@ -44,8 +51,9 @@ const appRoutes: Routes = [
     TesterComponent,
     MapComponent,
     FooterComponent,
-    
-       
+    LiveBarChartComponent,
+
+
 
   ],
   imports: [
@@ -56,12 +64,13 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     LeafletModule
 
-     
-    
-     
+
+
+
   ],
   providers: [
     DashboardService,
+    CameraService
   ],
   bootstrap: [AppComponent]
 })

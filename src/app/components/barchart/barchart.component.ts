@@ -13,7 +13,7 @@ export class BarchartComponent implements OnInit {
   //Variables
   input:number; 
   
-  barChart: any[];
+  barChart: any;
 
   segmentsSave: any[];
   // Inicializo fillimisht vektorin sepse ka kushtin if + push
@@ -45,7 +45,7 @@ export class BarchartComponent implements OnInit {
         console.log(this.input);
         return segment.speed > this.input ? "red" : "blue";
       });
-
+      
       this.createChart(colors);
     });
 

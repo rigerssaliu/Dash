@@ -6,7 +6,7 @@ import { Observable } from 'rxjs/Observable';
 export class DashboardService {
 
   //Url of the Api
-  private url = './assets/datarreze05km.json'
+  private baseURL = './assets/datarreze05km.json'
 
   // HttpClient Injected as a dependency 
   constructor(private http: HttpClient) {
@@ -17,7 +17,7 @@ export class DashboardService {
   }
   // Create a method of Observable
   public getJSON(): Observable<any> {
-    return this.http.get(this.url)
+    return this.http.get(this.baseURL)
   }
 
 }
